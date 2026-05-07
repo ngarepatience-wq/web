@@ -8,5 +8,7 @@
 			"path": "Wdev2"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Web"
+	}
 }
