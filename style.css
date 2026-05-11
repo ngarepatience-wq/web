@@ -21,6 +21,9 @@
             text-decoration: none;
 
         }
+        .toplink-right{
+            float: right;
+        }
 
         form{
            margin: 20px;
