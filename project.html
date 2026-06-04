@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Binary Tree Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            text-align: center;
+            padding: 30px;
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        .tree {
+            margin: 30px auto;
+            width: 400px;
+        }
+
+        .node {
+            display: inline-block;
+            padding: 10px 15px;
+            margin: 10px;
+            border-radius: 50%;
+            background-color: #3498db;
+            color: white;
+            font-weight: bold;
+        }
+
+        .children {
+            display: flex;
+            justify-content: center;
+        }
+
+        .traversal {
+            margin-top: 30px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Binary Tree Traversal Project</h1>
+
+    <h2>Tree Structure</h2>
+
+    <div class="tree">
+        <div class="node">10</div>
+
+        <div class="children">
+            <div>
+                <div class="node">20</div>
+                <div class="children">
+                    <div class="node">40</div>
+                    <div class="node">50</div>
+                </div>
+            </div>
+
+            <div>
+                <div class="node">30</div>
+                <div class="children">
+                    <div class="node">60</div>
+                    <div class="node">70</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="traversal">
+        <h2>Traversal Results</h2>
+
+        <p><strong>Preorder:</strong> 10 20 40 50 30 60 70</p>
+        <p><strong>Inorder:</strong> 40 20 50 10 60 30 70</p>
+        <p><strong>Postorder:</strong> 40 50 20 60 70 30 10</p>
+    </div>
+
+</body>
+</html>
